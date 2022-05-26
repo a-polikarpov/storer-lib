@@ -1,0 +1,6 @@
+<h1>Plyground app!</h1>
+
+<h2>Counter: {{ storer.count$ | async }}</h2>
+<button (click)="storer.increment()">+</button>
+<button (click)="storer.decrement()">-</button>
+<button (click)="storer.reset()">Reset</button>
